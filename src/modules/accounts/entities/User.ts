@@ -30,6 +30,9 @@ export class User {
   @CreateDateColumn()
   created_at: Date;
 
+  @Column()
+  avatar: string;
+
   constructor() {
     if (!this.id) {
       this.id = uuidV4();
