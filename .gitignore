@@ -2,3 +2,4 @@
 ormconfig.json
 /dist
 /tmp
+.vscode
